@@ -16,6 +16,7 @@
 		61A2C2EF2AA4EC3A00C81735 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2C2EE2AA4EC3A00C81735 /* NewRecipeView.swift */; };
 		61A2C2F12AA4EC4A00C81735 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2C2F02AA4EC4A00C81735 /* FavoritesView.swift */; };
 		61A2C2F32AA4EC5500C81735 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2C2F22AA4EC5500C81735 /* SettingsView.swift */; };
+		61A2C2F62AA52D3800C81735 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2C2F52AA52D3800C81735 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		61A2C2EE2AA4EC3A00C81735 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
 		61A2C2F02AA4EC4A00C81735 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		61A2C2F22AA4EC5500C81735 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		61A2C2F52AA52D3800C81735 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				61A2C2D72AA4EAC700C81735 /* ContentView.swift */,
+				61A2C2F52AA52D3800C81735 /* TabBar.swift */,
 				61A2C2EA2AA4EC0100C81735 /* HomeView.swift */,
 				61A2C2EC2AA4EC1200C81735 /* CategoriesView.swift */,
 				61A2C2EE2AA4EC3A00C81735 /* NewRecipeView.swift */,
@@ -203,6 +206,7 @@
 				61A2C2F32AA4EC5500C81735 /* SettingsView.swift in Sources */,
 				61A2C2ED2AA4EC1200C81735 /* CategoriesView.swift in Sources */,
 				61A2C2EF2AA4EC3A00C81735 /* NewRecipeView.swift in Sources */,
+				61A2C2F62AA52D3800C81735 /* TabBar.swift in Sources */,
 				61A2C2F12AA4EC4A00C81735 /* FavoritesView.swift in Sources */,
 				61A2C2EB2AA4EC0100C81735 /* HomeView.swift in Sources */,
 				61A2C2D82AA4EAC700C81735 /* ContentView.swift in Sources */,

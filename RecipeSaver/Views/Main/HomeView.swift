@@ -9,7 +9,11 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Mis recetas")
+        NavigationView {
+            Text("Mis recetas")
+                .navigationTitle("Mis Recetas")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
