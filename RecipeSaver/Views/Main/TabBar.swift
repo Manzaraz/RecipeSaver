@@ -12,27 +12,27 @@ struct TabBar: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Inicio", systemImage: "house")
+                    Label("Home", systemImage: "house")
                 }
             
             CategoriesView()
                 .tabItem {
-                    Label("Categorias", systemImage: "square.fill.text.grid.1x2")
+                    Label("Categories", systemImage: "square.fill.text.grid.1x2")
                 }
             
             NewRecipeView()
                 .tabItem {
-                    Label("Nuevo", systemImage: "plus")
+                    Label("New", systemImage: "plus")
                 }
             
             FavoritesView()
                 .tabItem {
-                    Label("Favoritos", systemImage: "heart")
+                    Label("Favorites", systemImage: "heart")
                 }
             
             SettingsView()
                 .tabItem {
-                    Label("Configuraciones", systemImage: "gear")
+                    Label("Settings", systemImage: "gear")
                 }
         }
     }
