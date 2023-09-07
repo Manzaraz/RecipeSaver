@@ -23,21 +23,27 @@ struct AddRecipeView: View {
                 }
                 
                 Section(header: Text("Category")) {
-                    
+                    Picker("Category selected", selection: $selectedCategory) {
+                        ForEach(Category.allCases) { category in
+                            Text(category.rawValue)
+                                .tag(category)
+                        }
+                    }
+                    .pickerStyle(.menu)
                 }
                 
                 Section(header: Text("Description")) {
-                    TextField("Description", text: $description)
+                    TextEditor(text: $description)
                     
                 }
                 
                 Section(header: Text("Ingredients")) {
-                    TextField("Ingredients", text: $ingredients)
+                    TextEditor(text: $ingredients)
                     
                 }
 
                 Section(header: Text("Directions")) {
-                    TextField("Directions", text: $directions)
+                    TextEditor(text: $directions)
                     
                 }
 
