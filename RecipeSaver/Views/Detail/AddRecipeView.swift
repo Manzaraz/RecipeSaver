@@ -14,6 +14,8 @@ struct AddRecipeView: View {
     @State private var ingredients: String = ""
     @State private var directions: String = ""
     
+    @Environment(\.dismiss) var dismiss
+    
     
     var body: some View {
         NavigationView {
@@ -51,7 +53,7 @@ struct AddRecipeView: View {
             .toolbar(content: {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                        
+                        dismiss()
                     } label: {
                         Label("Cancel", systemImage: "xmark")
                             .labelStyle(.iconOnly)
