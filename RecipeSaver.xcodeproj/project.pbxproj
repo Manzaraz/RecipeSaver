@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6191D6492AA98079006F4023 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6191D6482AA98079006F4023 /* CategoryView.swift */; };
+		6191D64D2AAA0C65006F4023 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6191D64C2AAA0C65006F4023 /* AddRecipeView.swift */; };
 		61A2C2D62AA4EAC700C81735 /* RecipeSaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2C2D52AA4EAC700C81735 /* RecipeSaverApp.swift */; };
 		61A2C2D82AA4EAC700C81735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A2C2D72AA4EAC700C81735 /* ContentView.swift */; };
 		61A2C2DA2AA4EAC900C81735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A2C2D92AA4EAC900C81735 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		6191D6482AA98079006F4023 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		6191D64C2AAA0C65006F4023 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 		61A2C2D22AA4EAC700C81735 /* RecipeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A2C2D52AA4EAC700C81735 /* RecipeSaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSaverApp.swift; sourceTree = "<group>"; };
 		61A2C2D72AA4EAC700C81735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				61EF190C2AA80ADB00FF23B5 /* RecipeView.swift */,
 				6191D6482AA98079006F4023 /* CategoryView.swift */,
+				6191D64C2AAA0C65006F4023 /* AddRecipeView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6191D64D2AAA0C65006F4023 /* AddRecipeView.swift in Sources */,
 				61A2C2F32AA4EC5500C81735 /* SettingsView.swift in Sources */,
 				61EF19072AA7CAD200FF23B5 /* RecipeCard.swift in Sources */,
 				61A2C2ED2AA4EC1200C81735 /* CategoriesView.swift in Sources */,
