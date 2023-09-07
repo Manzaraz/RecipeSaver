@@ -47,8 +47,29 @@ struct AddRecipeView: View {
                     
                 }
 
-                
             }
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        
+                    } label: {
+                        Label("Cancel", systemImage: "xmark")
+                            .labelStyle(.iconOnly)
+                    }
+
+                }
+                ToolbarItem {
+                    Button {
+                        
+                    } label: {
+                        Label("Done", systemImage: "checkmark")
+                            .labelStyle(.iconOnly)
+                    }
+                    .disabled(name.isEmpty)
+
+                }
+
+            })
             .navigationTitle("New Recipe")
             .navigationBarTitleDisplayMode(.inline)
         }
