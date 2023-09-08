@@ -1,7 +1,7 @@
 # RecipeSaver
 ## An app where you can save all your recipes
 
-![Descripción de la imagen](https://ibb.co/C7PZySV)
+![Descripción de la imagen](https://i.ibb.co/7Wk5D0r/Captura-de-pantalla-2023-09-08-a-la-s-18-17-08.png)
 
 👋🏼 Hello everyone, I'm Chris, a full-stack developer in JavaScript who is currently sharpening my skills in Swift development for iOS. And as a practice, I would like to present to you the latest project I've been working on: RecipeSaver. This app is inspired by the app Spiciko and will allow you to organize all your recipes in one place. Whether you are experienced chefs or just starting out in the kitchen, this app will be very useful to you.
 
